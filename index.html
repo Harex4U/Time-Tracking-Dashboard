@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
   
   <title>Frontend Mentor | Time tracking dashboard</title>
 
@@ -16,65 +17,141 @@
 </head>
 <body>
 
-  Report for
-  Jeremy Robson
+  <div class="container">
+    <div class="containercontainer">
 
-  Daily
-  Weekly
-  Monthly
+      <div class="big-cell">
+        <div class="report-container">
+          <img src="images/image-jeremy.png" alt="Image de Jeremy">
+          <div class="div-for-grid">
+            <p class="small-text">Report for</p>
+            <p class="xl-text">Jeremy Robson</p>
+          </div>
+        </div>
+        <div class="dwm">
+          <p class="text">Daily</p>
+          <p class="text">Weekly</p>
+          <p class="text">Monthly</p>
+        </div>
+      </div>
+      
+      <div class="cell-container">
+        <div class="background-container" id="work">
+        </div>
+        <div class="cell">
+          <div class="flexbox">
+            <p class="text">Work</p>
+            <p class="text">. . .</p>
+          </div>
+          
+          <p class="xl-text">5hrs <!-- daily --></p>
+          <p class="small-text">Previous - 7hrs <!-- daily --></p>
+        </div>
+        <!-- 32hrs weekly
+        Previous - 36hrs - weekly
+        103hrs - monthly
+        Previous - 128hrs - monthly -->
+      </div>
+     
+      <div class="cell-container">
+        <div class="background-container" id="play">
+        </div>
+        <div class="cell">
+          <div class="flexbox">
+            <p class="text">Play</p>
+            <p class="text">. . .</p>
+          </div>
 
-  Work
-  5hrs <!-- daily -->
-  Previous - 7hrs <!-- daily -->
-  32hrs <!-- weekly -->
-  Previous - 36hrs <!-- weekly -->
-  103hrs <!-- monthly -->
-  Previous - 128hrs <!-- monthly -->
+          <p class="xl-text">1hr</p>
+          <p class="small-text">Previous - 2hrs</p>
+        </div>
+        <!-- daily -->
+        <!-- Daily
+        10hrs weekly
+        Previous - 8hrs weekly 
+        23hrs monthly 
+        Previous - 29hrs monthly -->
+      </div>
 
-  Play
-  1hr <!-- daily -->
-  Previous - 2hrs <!-- daily -->
-  10hrs <!-- weekly -->
-  Previous - 8hrs <!-- weekly -->
-  23hrs <!-- monthly -->
-  Previous - 29hrs <!-- monthly -->
+      <div class="cell-container">
+        <div class="background-container" id="study">
+        </div>
+        <div class="cell">
+          <div class="flexbox">
+            <p class="text">Study</p>
+            <p class="text">. . .</p>
+          </div>
 
-  Study
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 7hrs <!-- weekly -->
-  13hrs <!-- monthly -->
-  Previous - 19hrs <!-- monthly -->
+          <p class="xl-text">0hrs <!--daily--></p>
+          <p class="small-text">Previous - 1hr <!--daily--></p>
+        </div>
+        <!-- 
+        4hrs weekly
+        Previous - 7hrs weekly
+        13hrs monthly
+        Previous - 19hrs monthly -->
+      </div>
 
-  Exercise
-  1hr <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  4hrs <!-- weekly -->
-  Previous - 5hrs <!-- weekly -->
-  11hrs <!-- monthly -->
-  Previous - 18hrs <!-- monthly -->
+      <div class="cell-container">
+        <div class="background-container" id="exercise">
+        </div>
+        <div class="cell">
+          <div class="flexbox">
+            <p class="text">Exercise</p>
+            <p class="text">. . .</p>
+          </div>
 
-  Social
-  1hr <!-- daily -->
-  Previous - 3hrs <!-- daily -->
-  5hrs <!-- weekly -->
-  Previous - 10hrs <!-- weekly -->
-  21hrs <!-- monthly -->
-  Previous - 23hrs <!-- monthly -->
+          <p class="xl-text">1hr <!--daily--></p>
+          <p class="small-text">Previous - 1hr <!--daily--></p>
+        </div>
+        <!--
+        4hrs weekly
+        Previous - 5hrs weekly
+        11hrs monthly
+        Previous - 18hrs monthly -->
+      </div>
 
-  Self Care
-  0hrs <!-- daily -->
-  Previous - 1hr <!-- daily -->
-  2hrs <!-- weekly -->
-  Previous - 2hrs <!-- weekly -->
-  7hrs <!-- monthly -->
-  Previous - 11hrs <!-- monthly -->
+      <div class="cell-container">
+        <div class="background-container" id="social">
+        </div>
+        <div class="cell">
+          <div class="flexbox">
+            <p class="text">Social</p>
+            <p class="text">. . .</p>
+          </div>
 
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+          <p class="xl-text">1hr <!--daily--></p>
+          <p class="small-text">Previous - 3hrs <!--daily--></p>
+        </div>
+        <!-- daily
+        Previous - 3hrs daily
+        5hrs weekly
+        Previous - 10hrs weekly
+        21hrs monthly
+        Previous - 23hrs monthly -->
+      </div>
+
+      <div class="cell-container">
+        <div class="background-container" id="selfcare">
+        </div>
+        <div class="cell">
+          <div class="flexbox">
+            <p class="text">Self Care</p>
+            <p class="text">. . .</p>
+          </div>
+
+          <p class="xl-text">0hr <!--daily--></p>
+          <p class="small-text">Previous - 1hr <!--daily--></p>
+        </div>
+        <!-- daily
+        Previous - 1hr daily
+        2hrs weekly
+        Previous - 2hrs weekly
+        7hrs monthly
+        Previous - 11hrs monthly -->
+      </div>
+    </div>
+    
   </div>
 </body>
 </html>
